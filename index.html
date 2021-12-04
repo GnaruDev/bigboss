@@ -1,63 +1,53 @@
 <!DOCTYPE html>
-	<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Final Project</title>
-		<meta name ="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="styles/stylesheetmain.css">
-		<link rel="stylesheet" href="styles/stylesheetnav.css">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Big Boss Games</title>
+    <link rel="stylesheet" href="assets/css/master.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/732cfffd08.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      window.onscroll = () => {
+        const nav = document.querySelector('#navbar');
+        if(this.scrollY <= 10) nav.className = ''; else nav.className = 'scroll';
+      };
+    </script>
+  </head>
+  <body>
+    <nav id="main-nav">
+        <a href="index.html"><img id="logo" src="assets/images/logo.svg" alt="Logo" height="60"></a>
+      <div id="links">
+        <a href="games.html"><i class="fas fa-at"></i></a>
+        <a href="contact.html"><i class="fas fa-map-marker-alt"></i></a>
+        <a href="cart/checkout.php"><i class="fas fa-shopping-cart"></i></a>
+      </div>
+    </nav>
 
-			<style>
-				@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@300&display=swap');
-			</style>
-	</head>
+    <nav class="nav-container">
+      <div id="content-nav">
+        <a href="#">Home</a>
+        <div class="dropdown">
+          <a class="dropbtn">Games <i class="fa fa-caret-down" style="font-size: 16px;"></i></a>
+          <div class="dropdown-content">
+            <a href="cart/videogames.php">Playstation</a>
+            <a href="cart/videogames.php">Xbox</a>
+            <a href="cart/videogames.php">Nintendo</a>
+          </div>
+      </div>
+      <a href="cart/consoles.php">Consoles</a>
+      <a href="#">Staff Picks</a>
+      <a href="#">Events</a>
+    </nav>
 
-    <div class = "topfixed">
-        <header>
-					<img src="images/Big_Boss_Game_Store_White.svg" class="logo">
-            <nav>
-                <ul class="nav-list">
-                        <li class="nav-item"><a href="index.html">Home</a></li>
-                        <li class="nav-item"><a href="#">Consoles</a></li>
-                        <li class="nav-item"><a href="#">Video Games</a></li>
-                        <li class="nav-item"><a href="#">Locations</a></li>
-                        <li class="nav-item"><a href="#">Cart</a></li>
+    <div class="landing">
+      <img src="assets/images/promo.png" alt="Cyber Monday Sale" width="100%">
+    </div>
 
-                </ul>
-            </nav>
-        </header>
-     </div>
-    <p><br /><br /></p>
+    <div class="content">
 
-
-  	<body>
-		<main>
-
-
-			<p><br /><br /><br /><br /><br /><br /><br /></p>
-
-			<div class="flexbox-container">
-			<div class="flexbox-page-container">
-            <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
-                it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.It was popularised in the 1960s with the release of
-                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            </p>
-
-            <p><br /><br /><br /><br /><br /><br /><br /></p>
-            <p><br /><br /><br /><br /><br /><br /><br /></p>
-            <p><br /><br /><br /><br /><br /><br /><br /></p>
-            <p><br /><br /><br /><br /><br /><br /><br /></p>
-            <p><br /><br /><br /><br /><br /><br /><br /></p>
-            <p><br /><br /><br /><br /><br /><br /><br /></p>
-
-		</div>
-	</div>
-
-	<p><br /><br /><br /></p>
-		</main>
-
-
+    </div>
 
   </body>
 </html>
