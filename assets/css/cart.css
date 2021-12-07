@@ -1,0 +1,104 @@
+/* Site-wide Classes */
+body{
+  font-family: 'Teko', sans-serif;
+  color: white;
+  background-color: #1A0D31;
+  background-size: 200px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+hr{
+  border-style: solid;
+  border-color: #180D30;
+}
+
+input{
+  background-color: #180D30;
+  font-size: 20px;
+  color: white;
+  margin: 5px;
+  border-style: solid;
+  border-color: #3A2C5E;
+  font-family: 'Teko', sans-serif;
+}
+
+.cart-back{
+  font-family: 'Teko', sans-serif;
+  background-color: #180D30;
+  font-size: 20px;
+  color: white;
+  padding: 5px;
+  padding-bottom: 3px;
+  margin: 5px;
+  border-style: solid;
+  border-color: #3A2C5E;
+  float: right;
+  text-decoration: none;
+}
+
+.cart-back:hover{
+  background-color: #641ED0;
+}
+
+.productSubmit{
+}
+
+.productSubmit:hover{
+  background-color: #641ED0;
+}
+
+.navbar{
+  display: inline;
+}
+
+/* Store Page Classes */
+.product{
+  padding: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #EDEDED;
+  margin: 10px;
+  width: 455px;
+  height: 100%;
+  display: inline-block;
+}
+
+.productTitle{
+font-size: 25px;
+}
+
+.productImage{
+ height: 200px;
+}
+
+.productPrice{
+  display: inline;
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+  padding-top: 0px;
+  padding-left: 20px;
+  float: left;
+}
+
+.productQuantity{
+  padding: 0;
+  margin: 0;
+  padding-top: 0px;
+  padding-right: 20px;
+  float: right;
+}
+
+.productSubmit{
+
+}
+
+/* Checkout Page Classes */
+.checkoutTitle{
+
+}
+
+.checkoutQuantity{
+
+}
