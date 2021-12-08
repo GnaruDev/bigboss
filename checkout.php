@@ -2,8 +2,8 @@
 <html>
   <head>
     <title>Checkout</title>
-    <link rel="stylesheet" href="../assets/css/master.css">
-    <link rel="stylesheet" href="../assets/css/cart.css">
+    <link rel="stylesheet" href="assets/css/master.css">
+    <link rel="stylesheet" href="assets/css/cart.css">
     <?php include 'session.php'; ?>
   </head>
   <body>

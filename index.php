@@ -20,9 +20,9 @@
   </head>
   <body>
     <nav id="main-nav">
-        <a href="contact.php"><img id="logo" src="assets/images/logo.svg" alt="Logo" height="60"></a>
+        <a href="index.php"><img id="logo" src="assets/images/logo.svg" alt="Logo" height="60"></a>
       <div id="links">
-        <a href="games.html"><i class="fas fa-at"></i></a>
+        <a href="contact.php"><i class="fas fa-at"></i></a>
         <a href="https://goo.gl/maps/5Gnu6bCmPon9rvB86"><i class="fas fa-map-marker-alt"></i></a>
         <a href="checkout.php"><i class="fas fa-shopping-cart"></i></a>
       </div>
@@ -40,7 +40,7 @@
           </div>
       </div>
       <a href="consoles.php">Consoles</a>
-      <a href="#">Events</a>
+      <a href="events.php">Events</a>
     </nav>
 
     <div class="landing">
@@ -48,16 +48,17 @@
     </div>
 
     <div class="content center">
-      <h1>Our First Cyber Monday "Sale"!</h1>
-      <p>Starting today we have a whopping <span style="color:#F2D637;">0% OFF</span> on all XBOX games!</p>
-      <p>But wait! There's More! We are also having a and <span style="color:#F2D637;">Buy 1 Get 1 For The SAME Price</span> event for all Nintendo games!</p>
-      <a class="button" href="xbox.php">Xbox 0% Off Sale</a>
-      <a class="button" href="nintendo.php">Ninteno B1G1FTSP Event</a>
+      <h1>Welcome to Big Boss Game Store</h1>
+      <h2>We've got <span style="color:#F2D637;">BIG</span> games, a <span style="color:#F2D637;">BIG</span> selection, and <span style="color:#F2D637;">BIG</span> discounts!</h2>
+      <p style="color: #3C2C5F; font-size: 15px;">*For legal reasons we must state our selection isn't BIG at the moment, but we wanted a BIG slogan so screw you.</p>
       <br>
-      <br>
+      <a class="button" href="playstation.php">PlayStation Games</a>
+      <a class="button" href="xbox.php">XBOX Games</a>
+      <a class="button" href="nintendo.php">Nintendo Games</a>
     </div>
 
     <h1 class="center">New Games</h1>
+    <hr class="title-hr">
 
     <div class="contentslider">
     <h2>PlayStation 4</h2>
@@ -86,7 +87,7 @@
     </div>
 
     <div class="contentslider">
-    <h2>Xbox One</h2>
+    <h2>XBOX ONE <span style="color: #ECD848;">[33% OFF]</span></h2>
 
     <div class=x-scroller>
       <form action="<?=$_SERVER['PHP_SELF']?>" method="post">
@@ -99,6 +100,7 @@
           echo "<img class='productImage' src='assets/images/" . $v['image'] . "' alt='Product Image'><br />";
           echo "<b class='productTitle'>" . $v['desc'] . "</b><br />";
           echo "<hr>";
+          echo "<p class='discountPrice'> $60 </p>";
           echo "<p class='productPrice'>$" . $CATALOG[$k]['price'] . "</p>";
           echo "<p class='productQuantity'>Quantity: ";
           echo "<input size=1 type=text name=\"a_qty[" . $k . "]\">";

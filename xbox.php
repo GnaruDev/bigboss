@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   <title>Xbox Games | BigBoss Game Store</title>
-    <link rel="stylesheet" href="../assets/css/master.css">
-    <link rel="stylesheet" href="../assets/css/cart.css">
-    <link rel="stylesheet" href="../assets/css/slider.css">
+    <link rel="stylesheet" href="assets/css/master.css">
+    <link rel="stylesheet" href="assets/css/cart.css">
+    <link rel="stylesheet" href="assets/css/slider.css">
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/732cfffd08.js" crossorigin="anonymous"></script>
     <script type="text/javascript">
@@ -45,11 +45,15 @@
         </div>
     </div>
     <a href="consoles.php">Consoles</a>
-    <a href="#">Events</a>
+    <a href="events.php">Events</a>
   </nav>
 
-    <div class="contentslider">
-    <h2>XBOX ONE</h2>
+  <p><br /><br /></p>
+  <h1 class="center">XBOX Games</h1>
+  <hr class="title-hr">
+
+  <div class="contentslider">
+    <h2>XBOX ONE <span style="color: #ECD848;">[33% OFF]</span></h2>
 
     <div class=x-scroller>
       <form action="<?=$_SERVER['PHP_SELF']?>" method="post">
@@ -62,6 +66,7 @@
       echo "<img class='productImage' src='assets/images/" . $v['image'] . "' alt='Product Image'><br />";
       echo "<b class='productTitle'>" . $v['desc'] . "</b><br />";
       echo "<hr>";
+      echo "<p class='discountPrice'> $60 </p>";
       echo "<p class='productPrice'>$" . $CATALOG[$k]['price'] . "</p>";
       echo "<p class='productQuantity'>Quantity: ";
       echo "<input size=1 type=text name=\"a_qty[" . $k . "]\">";

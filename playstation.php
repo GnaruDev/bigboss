@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   <title>PlayStation Games | BigBoss Game Store</title>
-    <link rel="stylesheet" href="../assets/css/master.css">
-    <link rel="stylesheet" href="../assets/css/cart.css">
-    <link rel="stylesheet" href="../assets/css/slider.css">
+    <link rel="stylesheet" href="assets/css/master.css">
+    <link rel="stylesheet" href="assets/css/cart.css">
+    <link rel="stylesheet" href="assets/css/slider.css">
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/732cfffd08.js" crossorigin="anonymous"></script>
     <script type="text/javascript">
@@ -45,8 +45,12 @@
         </div>
     </div>
     <a href="consoles.php">Consoles</a>
-    <a href="#">Events</a>
+    <a href="events.php">Events</a>
   </nav>
+
+    <p><br /><br /></p>
+    <h1 class="center">PlayStation Games</h1>
+    <hr class="title-hr">
 
     <div class="contentslider">
     <h2>PlayStation 4</h2>

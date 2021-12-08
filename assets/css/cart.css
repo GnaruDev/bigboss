@@ -72,6 +72,15 @@ font-size: 25px;
  height: 200px;
 }
 
+.discountPrice{
+  color: #ECD848;
+  font-size: 20px;
+  text-decoration: line-through;
+  position: absolute;
+  left: 96px;
+  bottom: 1px;
+}
+
 .productPrice{
   display: inline;
   font-size: 30px;
