@@ -2,13 +2,13 @@
 <html>
   <head>
     <title>Checkout</title>
-    <link rel="stylesheet" href="../styles/cartstyles.css">
+    <link rel="stylesheet" href="assets/css/master.css">
+    <link rel="stylesheet" href="assets/css/cart.css">
     <?php include 'session.php'; ?>
   </head>
   <body>
     <div class="content">
-
-      <a style="float:right;" href="../index.html">Return Home</a>
+      <a class="cart-back" href="index.php">Return Home</a>
       <h2>Checkout</h2>
       <hr />
       <form action="<?=$_SERVER['PHP_SELF']?>" method="post">
